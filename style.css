@@ -11,6 +11,9 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #f8f9fa;
     line-height: 1.5;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 /* Container */
@@ -36,7 +39,7 @@ body {
 /* Layout */
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 450px;
     gap: 40px;
     align-items: start;
 }
@@ -44,7 +47,7 @@ body {
 /* Products Grid */
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 20px;
 }
 
